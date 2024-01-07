@@ -1,0 +1,19 @@
+.Image{
+  display: flex;
+  margin-top:5%;
+  gap: 40px;
+}
+
+.content{
+
+  margin-left: 5%;
+display: flex;
+gap: 40px;
+width: 50%;
+height: 50%;
+border: 1px solid rgb(217, 211, 211);
+padding: 10px;
+}
+.right-content h3{
+  font-weight: 700;
+}

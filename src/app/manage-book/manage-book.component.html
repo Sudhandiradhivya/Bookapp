@@ -1,0 +1,28 @@
+<h3>Manage Book</h3>
+ <div class="form-area" *ngIf="Image">
+
+  <form class="form" *ngFor="let img of Image">
+    <label>Book Name</label><br>
+    <input type="text" name="bookName" [value]="img.bookName" [(ngModel)]="img.bookName"><br>
+
+    <label>ImageUrl</label><br>
+    <input type="text" name="imageUrl" [value]="img.imageUrl" [(ngModel)]="img.imageUrl"><br>
+
+    <label>About</label><br>
+    <input type="text" name="About" [value]="img.About" [(ngModel)]="img.About" ><br>
+
+    <label>Price</label><br>
+    <input type="text" name="price" [value]="img.price" [(ngModel)]="img.price"><br>
+
+    <label>By</label><br>
+    <input type="text" name="By" [value]="img.By" [(ngModel)]="img.By"><br>
+
+    <label>Publisher</label><br>
+    <input type="text" name="Publisher" [value]="img.Publisher" [(ngModel)]="img.Publisher"><br>
+
+    <label>Released</label><br>
+    <input type="text" name="Released" [value]="img.Released" [(ngModel)]="img.Released"><br>
+
+    <input type="submit" class="submit" value="Submit" (click)="onSubmit(img)">
+  </form>
+</div>

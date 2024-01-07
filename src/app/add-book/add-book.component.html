@@ -1,0 +1,28 @@
+<div class="form-area">
+  <h3>Add Book</h3>
+  <form class="form" #bookForm="ngForm" (ngSubmit)="onBook(bookForm.value)">
+    <label>Book Name</label><br>
+    <input type="text" name="bookName" ngModel><br>
+
+    <label>ImageUrl</label><br>
+    <input type="text" name="imageUrl" ngModel><br>
+
+    <label>About</label><br>
+    <input type="text" name="About" ngModel>
+
+    <label>Price</label><br>
+    <input type="text" name="price" ngModel>
+
+    <label>By</label><br>
+    <input type="text" name="By" ngModel>
+
+    <label>Publisher</label><br>
+    <input type="text" name="Publisher" ngModel>
+
+    <label>Released</label><br>
+    <input type="text" name="Released" ngModel>
+
+
+    <input type="submit" class="submit" value="addBook">
+  </form>
+</div>

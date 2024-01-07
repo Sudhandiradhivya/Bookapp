@@ -1,0 +1,158 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Images": [
+    {
+      "id": 1,
+      "Model": "Cyber Safety",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/567/9789391392567.jpg",
+      "StartingPrice": "₹389",
+      "By": "Jaago Teens (Author)",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2021",
+      "About": "Cyber Safety for Everyone 2nd Edition: Understand the Interplay between the Internet and one's Social and Mental Well-Being"
+    },
+    {
+      "id": 2,
+      "Model": "HTML5 & CSS3",
+      "imageUrl": "https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/419/9788183334419.jpg",
+      "StartingPrice": "₹416",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2021",
+      "About": "There are a new book available that explain how HTML 5 and CSS 3 can be used today to create amazing User Interfaces for websites and web application. This book strives to go one step further than just using code examples."
+    },
+    {
+      "id": 3,
+      "Model": "Genetic Algorithms",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/293/9788177588293.jpg",
+      "StartingPrice": "₹701",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2021",
+      "About": "There are a new book available that explain how HTML 5 and CSS 3 can be used today to create amazing User Interfaces for websites and web application. This book strives to go one step further than just using code examples."
+    },
+    {
+      "id": 4,
+      "Model": "Designing User Interfaces",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/743/9789389898743.jpg",
+      "StartingPrice": "₹493",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2021",
+      "About": "There are a new book available that explain how HTML 5 and CSS 3 can be used today to create amazing User Interfaces for websites and web application. This book strives to go one step further than just using code examples."
+    },
+    {
+      "id": 5,
+      "Model": "Building Production-ready Web",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/338/9789391392338.jpg",
+      "StartingPrice": "₹813"
+    },
+    {
+      "id": 6,
+      "Model": "Jumpstart Snowflake",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/994/9781484278994.jpg",
+      "StartingPrice": "₹599"
+    },
+    {
+      "id": 7,
+      "Model": "Business Intelligence Demystified",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/087/9789391030087.jpg",
+      "StartingPrice": "₹599"
+    },
+    {
+      "id": 8,
+      "Model": "Linear Control Systems",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/125/9780824765125.jpg",
+      "StartingPrice": "₹6,506"
+    },
+    {
+      "id": 9,
+      "Model": "Power Of Positive Attitude",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/640/9789389432640.jpg",
+      "StartingPrice": "₹89"
+    },
+    {
+      "id": 10,
+      "Model": "India Bharat",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/492/9789354352492.jpg",
+      "StartingPrice": "₹575"
+    },
+    {
+      "id": 11,
+      "Model": "ASP.NET Core for Jobseekers",
+      "imageUrl": "https://www.bookswagon.com/productimages/mainimages/581/9789391392581.jpg",
+      "StartingPrice": "₹813"
+    },
+    {
+      "id": 12,
+      "Model": "Cryptography and Network Security",
+      "imageUrl": "https://www.bookswagon.com/productimages/mainimages/660/9789389328660.jpg",
+      "StartingPrice": "₹961"
+    }
+  ],
+  "books": [
+    {
+      "bookName": "Cyber Safety",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/567/9789391392567.jpg",
+      "About": "Cyber Safety for Everyone 2nd Edition: Understand the Interplay between the Internet and one's Social and Mental Well-Being.",
+      "price": "₹390",
+      "By": "Jaago Teens (Author)",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2021",
+      "id": 1
+    },
+    {
+      "bookName": "HTML5 & CSS3",
+      "imageUrl": "https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/419/9788183334419.jpg",
+      "About": "There are a new book available that explain how HTML 5 and CSS 3 can be used today to create amazing User Interfaces for websites and web application. This book strives to go one step further than just using code examples.",
+      "price": "₹420",
+      "By": "Jaago Teens (Author)",
+      "Publisher": "BPB Publications",
+      "Released": "04 Oct 2022",
+      "id": 2
+    },
+    {
+      "bookName": "Genetic Algorithms",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/293/9788177588293.jpg",
+      "About": "The text introduces the theory, operation, and application of genetic algorithms----search algorithms based on the mechanics of natural selection and genetics.",
+      "price": "₹701",
+      "By": "Jaago Teens (Author)",
+      "Publisher": "Dorling Kindersley Pvt Ltd",
+      "Released": "04 Oct 2023",
+      "id": 3
+    },
+    {
+      "bookName": "Jumpstart Snowflake",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/994/9781484278994.jpg",
+      "About": "Jumpstart Snowflake: A Step-by-Step Guide to Modern Cloud Analytics",
+      "price": "₹599",
+      "By": "Dmitry Anoshin|Dmitry Shirokov|Donna Strok",
+      "Publisher": "Springer India",
+      "Released": "04 Oct 2021",
+      "id": 4
+    },
+    {
+      "bookName": "Art And Science Of Smalltalk",
+      "imageUrl": "https://www.bookswagon.com/productimages/images200/459/9780133713459.jpg",
+      "About": "This practical text provides an introduction to programming in Smalltalk, and explains the most efficient ways to think about and work with the system. Split into two parts, the first part covers the important technical background for programmers and managers, while the second part introduces some of the basic philosophy of Smalltalk. This text aims to demystify the transition from conventional programming to programming with Smalltalk. It includes a step-by-step guide, taking the reader through the basics, via object-oriented programming with the Smalltalk language and its development environment, right up to designing, coding and debugging programs.",
+      "price": "₹1,770",
+      "By": " Lewis",
+      "Publisher": "Prentice Hall",
+      "Released": "08 Oct 2021",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+
+<div *ngIf="Image" class="Image">
+
+  <div *ngFor="let img of Image" class="content">
+
+    <img [src]="img.imageUrl" alt="Image" width="150px" height="140px" style="padding: 10px;">
+    <p>{{img.bookName}}</p>
+    <p>{{img.price}}</p>
+    <button (click)="viewDetails(img.id)">Quick View</button>
+  </div>
+</div>

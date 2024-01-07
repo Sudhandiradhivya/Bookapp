@@ -1,0 +1,23 @@
+.header{
+  display: flex;
+}
+.header ul{
+
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  text-decoration: none;
+  margin-left:25%;
+}
+.header ul #login{
+  margin-left: 120%;
+}
+
+.header li{
+  padding: 10px;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+}

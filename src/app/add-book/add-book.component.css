@@ -1,0 +1,35 @@
+.form-area{
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 30%;
+  height: 100%;
+  margin: 3% 0px 0px 30%;
+
+}
+.form-area h3{
+  text-align: center;
+  margin-top: 10px;
+}
+.form{
+
+  padding: 35px;
+  margin-top: 3px;
+}
+.form input{
+  width: 93%;
+  height: 90%;
+  padding: 5px;
+  margin: 5px;
+}
+.form label{
+  padding: 5px;
+
+}
+.form .submit{
+  margin-left: 90px;
+  margin-top: 20px;
+  width: 50%;
+  height: 30%;
+  background-color: rgb(179, 135, 220);
+  border: none;
+}
